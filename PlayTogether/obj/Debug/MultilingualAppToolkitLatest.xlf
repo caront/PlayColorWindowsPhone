@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="PlayTogether_Multilingual.prilog.xml" tool-id="MultilingualAppToolkit" product-name="PlayTogether" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1250.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resources">
+        <trans-unit id="Resources\Yellow" translate="yes" xml:space="preserve">
+          <source>Yellow</source>
+          <target state="new">Yellow</target>
+        </trans-unit>
+        <trans-unit id="Resources\Win" translate="yes" xml:space="preserve">
+          <source>You Win !</source>
+          <target state="new">You Win !</target>
+        </trans-unit>
+        <trans-unit id="Resources\White" translate="yes" xml:space="preserve">
+          <source>White</source>
+          <target state="new">White</target>
+        </trans-unit>
+        <trans-unit id="Resources\Vibration\Text" translate="yes" xml:space="preserve">
+          <source>Vibration</source>
+          <target state="new">Vibration</target>
+        </trans-unit>
+        <trans-unit id="Resources\TimeStart\Text" translate="yes" xml:space="preserve">
+          <source>Time Start</source>
+          <target state="new">Time Start</target>
+        </trans-unit>
+        <trans-unit id="Resources\Sound\Text" translate="yes" xml:space="preserve">
+          <source>Sound</source>
+          <target state="new">Sound</target>
+        </trans-unit>
+        <trans-unit id="Resources\Sky" translate="yes" xml:space="preserve">
+          <source>Sky</source>
+          <target state="new">Sky</target>
+        </trans-unit>
+        <trans-unit id="Resources\Settings\Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="new">Settings</target>
+        </trans-unit>
+        <trans-unit id="Resources\ScoreToWin\Text" translate="yes" xml:space="preserve">
+          <source>Score To Win In Multiplayer</source>
+          <target state="new">Score To Win In Multiplayer</target>
+        </trans-unit>
+        <trans-unit id="Resources\ScoreHigt\Text" translate="yes" xml:space="preserve">
+          <source>Score</source>
+          <target state="new">Score</target>
+        </trans-unit>
+        <trans-unit id="Resources\ScoreGame\Text" translate="yes" xml:space="preserve">
+          <source>Score</source>
+          <target state="new">Score</target>
+        </trans-unit>
+        <trans-unit id="Resources\Score\Text" translate="yes" xml:space="preserve">
+          <source>Your Score</source>
+          <target state="new">Your Score</target>
+        </trans-unit>
+        <trans-unit id="Resources\Red" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <target state="new">Red</target>
+        </trans-unit>
+        <trans-unit id="Resources\Purple" translate="yes" xml:space="preserve">
+          <source>Purple</source>
+          <target state="new">Purple</target>
+        </trans-unit>
+        <trans-unit id="Resources\Point\Text" translate="yes" xml:space="preserve">
+          <source>Life</source>
+          <target state="new">Life</target>
+        </trans-unit>
+        <trans-unit id="Resources\Pink" translate="yes" xml:space="preserve">
+          <source>Pink</source>
+          <target state="new">Pink</target>
+        </trans-unit>
+        <trans-unit id="Resources\Orange" translate="yes" xml:space="preserve">
+          <source>Orange</source>
+          <target state="new">Orange</target>
+        </trans-unit>
+        <trans-unit id="Resources\NewGameTwo\Text" translate="yes" xml:space="preserve">
+          <source>Game</source>
+          <target state="new">Game</target>
+        </trans-unit>
+        <trans-unit id="Resources\NewGameOne\Text" translate="yes" xml:space="preserve">
+          <source>New</source>
+          <target state="new">New</target>
+        </trans-unit>
+        <trans-unit id="Resources\Lose" translate="yes" xml:space="preserve">
+          <source>You Lose !</source>
+          <target state="new">You Lose !</target>
+        </trans-unit>
+        <trans-unit id="Resources\HigtScore\Text" translate="yes" xml:space="preserve">
+          <source>Your Best Score</source>
+          <target state="new">Your Best Score</target>
+        </trans-unit>
+        <trans-unit id="Resources\Higt\Text" translate="yes" xml:space="preserve">
+          <source>High</source>
+          <target state="new">High</target>
+        </trans-unit>
+        <trans-unit id="Resources\Green" translate="yes" xml:space="preserve">
+          <source>Green</source>
+          <target state="new">Green</target>
+        </trans-unit>
+        <trans-unit id="Resources\Brown" translate="yes" xml:space="preserve">
+          <source>Brown</source>
+          <target state="new">Brown</target>
+        </trans-unit>
+        <trans-unit id="Resources\Blue" translate="yes" xml:space="preserve">
+          <source>Blue</source>
+          <target state="new">Blue</target>
+        </trans-unit>
+        <trans-unit id="Resources\ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>PlayColor</source>
+          <target state="new">PlayColor</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CARON_T_WINDOWS</Machine>
+    <WindowsUser>caron thomas</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b4d0d53e-122e-43bf-b747-b917254ed6a4</PackageIdentityName>
+    <IntermediateOutputPath>E:\projetC#\PlayTogether\PlayTogether\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\PlayTogether.exe">
+      <PackagePath>PlayTogether.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.Common.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.Common.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.Display.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.Display.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.UI.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Web\bootstrap.html">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Web\bootstrap.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Web\Ormma.js">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Web\Ormma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Pictures\Back.png">
+      <PackagePath>Assets\Pictures\Back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Pictures\Cancel.png">
+      <PackagePath>Assets\Pictures\Cancel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Pictures\highScore.png">
+      <PackagePath>Assets\Pictures\highScore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Pictures\multi.png">
+      <PackagePath>Assets\Pictures\multi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Pictures\play.png">
+      <PackagePath>Assets\Pictures\play.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Pictures\retry.png">
+      <PackagePath>Assets\Pictures\retry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Pictures\Save.png">
+      <PackagePath>Assets\Pictures\Save.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Pictures\settings.png">
+      <PackagePath>Assets\Pictures\settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Pictures\Solo.png">
+      <PackagePath>Assets\Pictures\Solo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Sound\correct.wav">
+      <PackagePath>Assets\Sound\correct.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\Assets\Sound\wrong.wav">
+      <PackagePath>Assets\Sound\wrong.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\Pages\EndGame\EndGame.xbf">
+      <PackagePath>Pages\EndGame\EndGame.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\Pages\GameMulti\GameMulti.xbf">
+      <PackagePath>Pages\GameMulti\GameMulti.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\Pages\GameSolo\GameSolo.xbf">
+      <PackagePath>Pages\GameSolo\GameSolo.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\Pages\HighScore\HigtScore.xbf">
+      <PackagePath>Pages\HighScore\HigtScore.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\Pages\NewGame\NewGamePage.xbf">
+      <PackagePath>Pages\NewGame\NewGamePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\Pages\Settings\Settings.xbf">
+      <PackagePath>Pages\Settings\Settings.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\Pages\Test\TestHS.xbf">
+      <PackagePath>Pages\Test\TestHS.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\PlayTogether.xr.xml">
+      <PackagePath>PlayTogether.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\projetC#\PlayTogether\PlayTogether\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

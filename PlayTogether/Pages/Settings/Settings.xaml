@@ -1,0 +1,101 @@
+﻿<Page
+    x:Class="PlayTogether.Pages.Settings.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PlayTogether.Pages.Settings"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Background>
+        <SolidColorBrush Color="#FFEFEAEA"/>
+    </Page.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="75*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Margin="10" Grid.Row="0" Background="#FFB2246B">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50, 20, 0, 0">
+                <!--TextBlock Text="S" FontSize="60" FontWeight="Bold" Foreground="#FFeaeaea"/-->
+                <TextBlock x:Uid="Settings" Text="ettings" FontSize="60" FontStyle="Italic" Foreground="#FFeaeaea"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Background="#FFB2248F" Margin="10, 0, 10, 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="50*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="ms-appx:///Assets/Pictures/Back.png" Tapped="timeStartDown"  Grid.Column="0" Height="50" Width="50" ></Image>
+            <Image Source="ms-appx:///Assets/Pictures/Back.png"  Tapped="timeStartUp" Grid.Column="2" Height="50" Width="50" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <CompositeTransform Rotation="180"/>
+                </Image.RenderTransform>
+            </Image>
+            <StackPanel Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock x:Uid="TimeStart" Text="Time Start " Foreground="#FFeaeaea" FontSize="27" TextAlignment="Center"></TextBlock>
+                <TextBlock x:Name="TimeStartText" Text="1 second" Foreground="#FFeaeaea" FontSize="32" TextAlignment="Center"></TextBlock>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2" Background="#FFD953B8" Margin="10, 0, 10, 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="50*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="ms-appx:///Assets/Pictures/Back.png" Tapped="scoreStartDown" Grid.Column="0" Height="50" Width="50" ></Image>
+            <Image Source="ms-appx:///Assets/Pictures/Back.png" Tapped="scoreStartUp" Grid.Column="2" Height="50" Width="50" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <CompositeTransform Rotation="180"/>
+                </Image.RenderTransform>
+            </Image>
+            <StackPanel Orientation="Vertical" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock x:Uid="ScoreToWin" Text="Score to win in multiplayer" TextWrapping="WrapWholeWords" TextAlignment="Center" Foreground="#FFeaeaea" FontSize="27"></TextBlock>
+                <TextBlock x:Name="NbrColorText" Text="1" Foreground="#FFeaeaea" FontSize="32" TextAlignment="Center"></TextBlock>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="3" Margin="10, 0, 10, 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="SoundGrid" Background="#FFFF66A3" Margin="0, 0, 5, 0">
+                <Button Click="SoundGrid_Tapped" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock x:Uid="Sound" Text="Sound" Foreground="#FFeaeaea" FontSize="27" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="soundText" HorizontalAlignment="Center" Text="On" FontSize="32" Foreground="#FFeaeaea"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
+            <Grid Grid.Column="1"  x:Name="VibrationGrid" Background="#FFFF66A3" Margin="5, 0, 0, 0">
+                <Button Click="VibrationGrid_Tapped" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock x:Uid="Vibration" Text="Vibration" HorizontalAlignment="Center" Foreground="#FFeaeaea" FontSize="27" />
+                        <TextBlock x:Name="vibText" Text="On" FontSize="32" HorizontalAlignment="Center" Foreground="#FFeaeaea"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="4" Margin="10, 0, 10, 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Background="#FFFF99CC" Margin="0, 0, 5, 0">
+                <Button Click="Save_Tapped" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    <Image Source="ms-appx:///Assets/Pictures/Save.png" Height="50"></Image>
+                </Button>
+            </Grid>
+            <Grid Grid.Column="1" Background="#FFFF99CC" Margin="5, 0, 0, 0">
+                <Button Click="Cancel_Tapped" HorizontalAlignment="Center" BorderBrush="{x:Null}">
+                    <Image Source="ms-appx:///Assets/Pictures/Cancel.png" Height="50" ></Image>
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

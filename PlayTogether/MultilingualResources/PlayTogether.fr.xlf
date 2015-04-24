@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr" original="PlayTogether_Multilingual.prilog.xml" tool-id="MultilingualAppToolkit" product-name="PlayTogether" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1250.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resources">
+        <trans-unit id="Resources\Yellow" translate="yes" xml:space="preserve">
+          <source>Yellow</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Jaune</target>
+        </trans-unit>
+        <trans-unit id="Resources\Win" translate="yes" xml:space="preserve">
+          <source>You Win !</source>
+          <target state="translated">Gagne !</target>
+        </trans-unit>
+        <trans-unit id="Resources\White" translate="yes" xml:space="preserve">
+          <source>White</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Blanc</target>
+        </trans-unit>
+        <trans-unit id="Resources\Vibration\Text" translate="yes" xml:space="preserve">
+          <source>Vibration</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Vibrations</target>
+        </trans-unit>
+        <trans-unit id="Resources\TimeStart\Text" translate="yes" xml:space="preserve">
+          <source>Time Start</source>
+          <target state="translated">Temps au debut</target>
+        </trans-unit>
+        <trans-unit id="Resources\Sound\Text" translate="yes" xml:space="preserve">
+          <source>Sound</source>
+          <target state="translated">Son</target>
+        </trans-unit>
+        <trans-unit id="Resources\Sky" translate="yes" xml:space="preserve">
+          <source>Sky</source>
+          <target state="translated">Bleu Ciel</target>
+        </trans-unit>
+        <trans-unit id="Resources\Settings\Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated">Parametres</target>
+        </trans-unit>
+        <trans-unit id="Resources\ScoreToWin\Text" translate="yes" xml:space="preserve">
+          <source>Score To Win In Multiplayer</source>
+          <target state="translated">Score en multi-joueur</target>
+        </trans-unit>
+        <trans-unit id="Resources\ScoreHigt\Text" translate="yes" xml:space="preserve">
+          <source>Score</source>
+          <target state="translated">Score</target>
+        </trans-unit>
+        <trans-unit id="Resources\ScoreGame\Text" translate="yes" xml:space="preserve">
+          <source>Score</source>
+          <target state="translated">Score</target>
+        </trans-unit>
+        <trans-unit id="Resources\Score\Text" translate="yes" xml:space="preserve">
+          <source>Your Score</source>
+          <target state="translated">Votre Score</target>
+        </trans-unit>
+        <trans-unit id="Resources\Red" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rouge</target>
+        </trans-unit>
+        <trans-unit id="Resources\Purple" translate="yes" xml:space="preserve">
+          <source>Purple</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Violet</target>
+        </trans-unit>
+        <trans-unit id="Resources\Point\Text" translate="yes" xml:space="preserve">
+          <source>Life</source>
+          <target state="translated">Points</target>
+        </trans-unit>
+        <trans-unit id="Resources\Orange" translate="yes" xml:space="preserve">
+          <source>Orange</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Orange</target>
+        </trans-unit>
+        <trans-unit id="Resources\Pink" translate="yes" xml:space="preserve">
+          <source>Pink</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Rose</target>
+        </trans-unit>
+        <trans-unit id="Resources\NewGameTwo\Text" translate="yes" xml:space="preserve">
+          <source>Game</source>
+          <target state="translated">Partie</target>
+        </trans-unit>
+        <trans-unit id="Resources\NewGameOne\Text" translate="yes" xml:space="preserve">
+          <source>New</source>
+          <target state="signed-off">Nouvelle</target>
+        </trans-unit>
+        <trans-unit id="Resources\Lose" translate="yes" xml:space="preserve">
+          <source>You Lose !</source>
+          <target state="signed-off">Perdu !</target>
+        </trans-unit>
+        <trans-unit id="Resources\HigtScore\Text" translate="yes" xml:space="preserve">
+          <source>Your Best Score</source>
+          <target state="translated">Meilleur Score</target>
+        </trans-unit>
+        <trans-unit id="Resources\Higt\Text" translate="yes" xml:space="preserve">
+          <source>High</source>
+          <target state="translated">Meilleur</target>
+        </trans-unit>
+        <trans-unit id="Resources\Blue" translate="yes" xml:space="preserve">
+          <source>Blue</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Bleu</target>
+        </trans-unit>
+        <trans-unit id="Resources\Brown" translate="yes" xml:space="preserve">
+          <source>Brown</source>
+          <target state="translated">Marron</target>
+        </trans-unit>
+        <trans-unit id="Resources\Green" translate="yes" xml:space="preserve">
+          <source>Green</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">Vert</target>
+        </trans-unit>
+        <trans-unit id="Resources\ApplicationTitle" translate="no" xml:space="preserve">
+          <source>PlayColor</source>
+          <target state="signed-off">PlayColor</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

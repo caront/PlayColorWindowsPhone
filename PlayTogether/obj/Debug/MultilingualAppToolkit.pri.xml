@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PriInfo>
+  <PriHeader>
+    <WindowsEnvironment checksum="0" version="1.0" />
+    <AutoMerge>false</AutoMerge>
+  </PriHeader>
+  <QualifierInfo>
+    <Qualifiers>
+      <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+    </Qualifiers>
+    <QualifierSets>
+      <QualifierSet index="1">
+        <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+      </QualifierSet>
+    </QualifierSets>
+    <Decisions>
+      <Decision index="1">
+        <QualifierSet index="1">
+          <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+        </QualifierSet>
+      </Decision>
+    </Decisions>
+  </QualifierInfo>
+  <ResourceMap name="PlayTogether" primary="true">
+    <VersionInfo version="1.0" />
+    <ResourceMapSubtree index="1" name="Resources">
+      <NamedResource index="1" name="Yellow" uri="ms-resource://PlayTogether/Resources/Yellow">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Jaune</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Win" uri="ms-resource://PlayTogether/Resources/Win">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Gagne !</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="White" uri="ms-resource://PlayTogether/Resources/White">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Blanc</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Vibration\Text" uri="ms-resource://PlayTogether/Resources/Vibration\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Vibrations</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="TimeStart\Text" uri="ms-resource://PlayTogether/Resources/TimeStart\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Temps au debut</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Sound\Text" uri="ms-resource://PlayTogether/Resources/Sound\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Son</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Sky" uri="ms-resource://PlayTogether/Resources/Sky">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Bleu Ciel</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Settings\Text" uri="ms-resource://PlayTogether/Resources/Settings\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Parametres</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="ScoreToWin\Text" uri="ms-resource://PlayTogether/Resources/ScoreToWin\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Score en multi-joueur</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="ScoreHigt\Text" uri="ms-resource://PlayTogether/Resources/ScoreHigt\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Score</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="ScoreGame\Text" uri="ms-resource://PlayTogether/Resources/ScoreGame\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Score</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Score\Text" uri="ms-resource://PlayTogether/Resources/Score\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Votre Score</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Red" uri="ms-resource://PlayTogether/Resources/Red">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Rouge</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Purple" uri="ms-resource://PlayTogether/Resources/Purple">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Violet</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Point\Text" uri="ms-resource://PlayTogether/Resources/Point\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Points</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Orange" uri="ms-resource://PlayTogether/Resources/Orange">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Orange</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Pink" uri="ms-resource://PlayTogether/Resources/Pink">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Rose</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="NewGameTwo\Text" uri="ms-resource://PlayTogether/Resources/NewGameTwo\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Partie</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="NewGameOne\Text" uri="ms-resource://PlayTogether/Resources/NewGameOne\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Nouvelle</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Lose" uri="ms-resource://PlayTogether/Resources/Lose">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Perdu !</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="HigtScore\Text" uri="ms-resource://PlayTogether/Resources/HigtScore\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Meilleur Score</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Higt\Text" uri="ms-resource://PlayTogether/Resources/Higt\Text">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Meilleur</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Blue" uri="ms-resource://PlayTogether/Resources/Blue">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Bleu</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Brown" uri="ms-resource://PlayTogether/Resources/Brown">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Marron</Value>
+        </Candidate>
+      </NamedResource>
+      <NamedResource index="1" name="Green" uri="ms-resource://PlayTogether/Resources/Green">
+        <Decision index="1">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+        </Decision>
+        <Candidate type="String">
+          <QualifierSet index="1">
+            <Qualifier index="1" scoreAsDefault="0.0" priority="900" value="FR" name="Language" />
+          </QualifierSet>
+          <Value>Vert</Value>
+        </Candidate>
+      </NamedResource>
+    </ResourceMapSubtree>
+  </ResourceMap>
+</PriInfo>

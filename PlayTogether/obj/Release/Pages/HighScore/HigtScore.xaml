@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="PlayTogether.Pages.HighScore.HigtScore"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PlayTogether.Pages.HighScore"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI="using:Microsoft.Advertising.Mobile.UI"
+    mc:Ignorable="d">
+    <Page.Background>
+        <SolidColorBrush Color="#FFEFEAEA"/>
+    </Page.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="10" Grid.Row="0" Background="#FFD02424">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50, 20, 0, 0">
+                <!--TextBlock Text="H" FontSize="60" FontWeight="Bold" Foreground="#FFeaeaea"/-->
+                <TextBlock x:Uid="Higt" Text="igh" FontSize="60" FontStyle="Italic" Foreground="#FFeaeaea"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0, 0, 50, 20">
+                <!--TextBlock Text="S" FontSize="60" FontWeight="Bold" Foreground="#FFeaeaea"/-->
+                <TextBlock x:Uid="ScoreHigt" Text="core" FontSize="60" FontStyle="Italic" Foreground="#FFeaeaea"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Background="#FFD64242" Margin="10, 0, 10, 10">
+            <TextBlock x:Name="text1" FontSize="40" Margin="20, 10, 0, 0" Foreground="White"/>
+        </Grid>
+        <Grid Grid.Row="2" Background="#FFD67070" Margin="10, 0, 10, 10">
+            <TextBlock x:Name="text2" FontSize="35" Margin="20, 10, 0, 0" Foreground="White"/>
+        </Grid>
+        <Grid Grid.Row="3" Background="#FFD39797" Margin="10, 0, 10, 10">
+            <TextBlock x:Name="text3" FontSize="30" Margin="20, 10, 0, 0" Foreground="White"/>
+        </Grid>
+        <Grid Grid.Row="4" Background="Red" Margin="10, 0, 10, 10">
+            <UI:AdControl x:Name="adControl" ApplicationId="19487d79-aec8-4a92-b60e-abf97e5b65b0" Width="300" Height="50" AdUnitId="11009955"/>
+        </Grid>
+    </Grid>
+</Page>
+
